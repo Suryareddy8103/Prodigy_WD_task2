@@ -1,0 +1,133 @@
+body {
+    background-color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.h1{
+    color: #fdd835;
+    padding-top: 3rem;
+    font-size: 60px;
+    font-family: "Arial", sans-serif;
+}
+
+
+#container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border: 6px solid rgba(0, 0, 0, 0.719);
+    border-radius: 30px;
+}
+
+#display {
+    font-size: 6rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.719);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+    margin-bottom: 25px;
+}
+
+#controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: hsla(0, 0%, 0%, 0.562);
+    border: 3px solid #516572;
+    border-radius: 30px;
+}
+
+#lapcontrols button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: hsla(0, 0%, 0%, 0.562);
+    border: 3px solid grey;
+    border-radius: 30px;
+}
+#controls button:hover {
+    color: black;
+}
+
+#lapcontrols button:hover {
+    color: black;
+}
+
+#start_btn {
+    background-color: rgba(144, 238, 144, 0.849);
+}
+
+#start_btn:hover {
+    background-color: greenyellow;
+    
+}
+
+#stop_btn {
+    background-color: rgb(241, 186, 113);
+}
+
+#stop_btn:hover {
+    background-color: rgba(255, 166, 0, 0.863);
+}
+
+#restart_btn {
+    background-color: lightsalmon;
+}
+
+#restart_btn:hover {
+    background-color: red;
+}
+
+#lap_btn {
+    background-color: rgb(227, 230, 173);
+}
+
+#lap_btn:hover {
+    background-color: hsl(72, 100%, 60%);
+    color: hsla(0, 0%, 0%, 0.562);
+
+}
+
+#resetlap_btn {
+    background-color: violet;
+}
+
+#resetlap_btn:hover {
+    background-color: rgb(196, 51, 196);
+}
+
+#laps-container {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#laps {
+    list-style-type: none;
+    padding: 0;
+}
+
+#laps li {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: monospace;
+    background-color: hsl(0, 0%, 95%);
+    margin: 5px 0;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
